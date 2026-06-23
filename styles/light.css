@@ -1,10 +1,8 @@
-:root.theme-light,
-:root.theme_light,
-.page.theme-light,
-.page.theme_light {
+:root.theme-light {
   --heading-text: #ffc2e6;
   --accent-color: #ff8dcb;
   --border-color: #353430;
+  --border-hover-color: rgba(50, 49, 45, 0.4);
   --border-bottom: #353430;
   --text-color: #353430;
   --bg-color: #fff1f7;
@@ -13,10 +11,7 @@
   --bg-image: url(../images/cover-image-light.png);
 }
 
-:root.theme-light .decor,
-:root.theme_light .decor,
-.page.theme-light .decor,
-.page.theme_light .decor {
+:root.theme-light .decor {
   display: none;
 }
 
