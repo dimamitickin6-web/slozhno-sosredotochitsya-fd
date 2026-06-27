@@ -499,13 +499,16 @@
     grid-template-columns: 1fr;
   }
 
+  //*
   .concentrate .content__title {
     max-width: 236px;
   }
+  *//
+  
 
   .content__section {
     gap: 20px;
-    grid-template-columns: minmax(300px, 1fr) 2fr;;
+    grid-template-columns: minmax(236px, 1fr) 2fr;;
   }
   
   .concentrate__container {
