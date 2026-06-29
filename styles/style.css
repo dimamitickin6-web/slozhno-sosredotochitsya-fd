@@ -2,7 +2,7 @@
 .page {
   font-size: 18px;
   font-weight: 400;
-  font-family: var(--font-family);
+  font-family: var(--font-family), ;
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
@@ -404,11 +404,11 @@
   }
 
   .focus {
-    margin-bottom: 32px;
+    margin-bottom: 0px;
   }
 
   .concentrate {
-    margin-bottom: 55px;
+    margin-bottom: 0px;
   }
 
   .concentrate__container {
@@ -446,7 +446,7 @@
   .focus .focus__container,
   .concentrate-better .article-list {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 28px;
   }
 
   .gallery {

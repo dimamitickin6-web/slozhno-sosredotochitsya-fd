@@ -1,16 +1,19 @@
-:root.theme-light {
-  --heading-text: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --border-color: #353430;
-  --border-hover-color: rgba(50, 49, 45, 0.4);
-  --border-bottom: #353430;
-  --text-color: #353430;
-  --bg-color: #fff1f7;
-  --subtitle-color: #353430;
-  --section-title-color: #353430;
-  --bg-image: url(../images/cover-image-light.png);
+@media (prefers-color-scheme: light) {
+  :root.theme-light {
+    --heading-text: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --border-color: #353430;
+    --border-hover-color: rgba(50, 49, 45, 0.4);
+    --border-bottom: #353430;
+    --text-color: #353430;
+    --title-color: #ffc2e6;
+    --bg-color: #fff1f7;
+    --subtitle-color: #353430;
+    --section-title-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
+     --font-family: "IBM Plex mono", sans-serif;
+  }
 }
-
 :root.theme-light .decor {
   display: none;
 }

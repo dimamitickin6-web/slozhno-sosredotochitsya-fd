@@ -11,7 +11,7 @@
   --border-bottom: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
   --transition-duration: 0.3s;
-  --font-family: IBM Plex mono;
+  --font-family: "IBM Plex mono", sans-serif;
 }
 
 .decor {
