@@ -14,6 +14,7 @@
      --font-family: "IBM Plex mono", sans-serif;
   }
 }
+
 :root.theme-light .decor {
   display: none;
 }
