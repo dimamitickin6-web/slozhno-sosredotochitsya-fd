@@ -2,14 +2,14 @@
 .page {
   font-size: 18px;
   font-weight: 400;
-  font-family: var(--font-family), ;
+  font-family: "IBM Plex mono", sans-serif ;
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  transition-duration: var(--transition-duration), sans-serif;
+  transition-duration: var(--transition-duration);
 }
 
 
@@ -155,6 +155,7 @@
 
 .content__title {
   color: var(--section-title-color, #ff0070);
+  font-weight: 700;
 }
 
 .section__article__title {
@@ -534,4 +535,3 @@
   .decor {
     display: block;
   }
-}
