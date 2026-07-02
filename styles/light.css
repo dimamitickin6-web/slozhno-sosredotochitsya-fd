@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root.theme-light {
     --heading-text: #ffc2e6;
     --accent-color: #ff8dcb;
@@ -12,7 +12,7 @@
     --section-title-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
   }
-}
+
 
 :root.theme-light .decor {
   display: none;
@@ -29,3 +29,4 @@
       text-shadow: 2px 2px 0px var(--accent-color);
     }
   }
+}
